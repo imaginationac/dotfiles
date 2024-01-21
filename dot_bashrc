@@ -117,7 +117,7 @@ fi
 
 # rbevn shim stuff.
 # See (https://github.com/sstephenson/rben#how-it-works)
-if [[ -d "$HOME/.rbenv/bin ]]; then
+if [[ -d "$HOME/.rbenv/bin" ]]; then
 	export PATH="$HOME/.rbenv/bin:$PATH"
 	eval "$(rbenv init -)"
 fi
