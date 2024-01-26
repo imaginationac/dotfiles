@@ -133,3 +133,5 @@ export PATH="/home/dorian/perl5/bin:$PATH";
 
 #Environment variables
 export EDITOR=nvim
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
