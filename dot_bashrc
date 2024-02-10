@@ -135,3 +135,8 @@ export PATH="/home/dorian/perl5/bin:$PATH";
 export EDITOR=nvim
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+#starship (prompt customization)
+if [[ -f /usr/local/bin/starship ]]; then
+	eval "$(starship init bash)"
+fi
