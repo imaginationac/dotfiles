@@ -140,3 +140,5 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 if [[ -f /usr/local/bin/starship ]]; then
 	eval "$(starship init bash)"
 fi
+
+export GPG_TTY=$(tty)
