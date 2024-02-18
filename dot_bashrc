@@ -134,7 +134,9 @@ export PATH="/home/dorian/perl5/bin:$PATH";
 #Environment variables
 export EDITOR=nvim
 
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+if [[ -d /home/linuxbrew/ ]]; then
+	eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+fi
 
 #starship (prompt customization)
 if [[ -f /usr/local/bin/starship ]]; then
