@@ -51,7 +51,7 @@ version = 2.0
     background = "#83769c"
     foreground = "#ffffff"
     style = "diamond"
-    template = " \ueba2{{ .FormattedMs }}\u2800"
+    template = " \ueba2 {{ .FormattedMs }}\u2800"
     trailing_diamond = "\ue0b4"
     type = "executiontime"
     [blocks.segments.properties]
