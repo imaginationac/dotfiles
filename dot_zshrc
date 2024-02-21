@@ -63,5 +63,5 @@ chpwd_functions=(${chpwd_functions[@]} "_zoxide_hook")
 # ohmyposh (https://ohmyposh.dev/)
 if [[ -d $HOME/bin ]]; then
 	PATH=$HOME/bin:$PATH
-	eval "$(oh-my-posh init zsh)"
+	eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/themes/atomic-modified.omp.toml)"
 fi
